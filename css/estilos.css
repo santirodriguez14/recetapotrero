@@ -1,4 +1,7 @@
-    body {background-color: lemonchiffon;}
+    body {
+        background-color: lemonchiffon;}
+
+
 
     h1 {color: rgb(82, 14, 14);
         font-size: xx-large;}
@@ -18,4 +21,25 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+      }
+
+      header {background-color: yellow;}
+      nav {background-color: aqua;
+           margin-left: 35px;
+           margin-right: 35px; 
+            border: 2px solid;
+            padding: 5px;}
+      section{background-color: blueviolet;}
+      aside{background-color: teal;}
+
+      .wsp-link {
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        width: 55px;
+      }
+    
+      .wsp-link img {
+        width: 100%;
+        height: 100%;
       }
