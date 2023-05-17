@@ -4,12 +4,14 @@
 }    
     body {
         background-color: lemonchiffon;
-        font-family: sans-serif;}
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-    h1 {color: rgb(82, 14, 14);
+    h1 {color: lemonchiffon;
         font-size: xx-large;}
 
-    .textoazul {color: rgb(90, 197, 213)}
+      h3{
+        color: #1E180E;
+      }
 
     #titulo {text-align: center;}
 
@@ -29,9 +31,10 @@
       header {  
         display:flex ;
         min-height: 100px;
-        background-color: coral;
+        background-color: #140D0D;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
         }
           
       .logo a img{
@@ -48,8 +51,8 @@
             padding: 5px;
             display: flex;
             justify-content: space-around;}
-      section{background-color: darksalmon;}
-      aside{background-color: teal;}
+      section{background-color: #D8C19B}
+      aside{background-color: #D8C19B;}
 
       .wsp-link {
         position: fixed;
@@ -89,3 +92,22 @@
         height: 50 px;
         margin-right: 10px;
       }
+
+      footer {  
+        display:flex ;
+        min-height: 100px;
+        background-color: #140D0D;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        footer img {
+          width: 50px;
+          height: 50 px;
+          margin-right: 10px;
+        }
+
+        footer ul {
+          text-decoration:none;
+          color: antiquewhite;
+        }
