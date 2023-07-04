@@ -7,21 +7,25 @@
   font-family: "louis";
   src: url(../fuentes/Louis\ George\ Cafe.ttf)
   format(truetype);
+
+
 }
     body {
-        background-color: lemonchiffon;
+        background-color: #D8C19B;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-    h1 {color: lemonchiffon;
+    h1 {color: #D8C19B;
         font-family: 'Manrope', sans-serif;
+        text-align: center;
         font-size: xx-large;}
 
+    h2 {
+      text-align: center;
+    }
       h3{
         font-family: 'Manrope', sans-serif;
         color: #1E180E;
       }
-
-    #titulo {text-align: center;}
 
     img.pequeña{
         width: 500px;
@@ -137,3 +141,26 @@
   p { 
     font-family: "louis";
   }
+
+  
+  @media (max-width: 575px) {
+    .pequeña {
+      display: none;
+    }
+  }
+    @media (min-width: 575px) 
+    {
+     .pqq {
+      display: none;
+     }
+
+    }
+
+     @media (orientation: landscape) {
+      .header {
+        background-color: #1E180E;
+    }
+  }
+      .nav {
+        background-color: goldenrod;
+      }
